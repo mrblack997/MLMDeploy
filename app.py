@@ -2,9 +2,9 @@ from types import resolve_bases
 from flask import Flask, request, url_for, redirect, render_template
 import pandas as pd
 import pickle
-from Flask-Cors import CORS
+#from flask_cors import CORS
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 
 #app = Flask(__name__)
 
